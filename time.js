@@ -21,7 +21,7 @@ function tick ()
     document.querySelector('.countdown').innerText = hours+" hrs :"+mins+" min :"+secs+" secs";
 
   }
-  document.getElementById("sale").style.backgroundImage = "url('back.png')";
+  document.getElementById("sale").style.backgroundImage = "url('assets/back.png')";
 
 }
 function check()
