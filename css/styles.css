@@ -1,0 +1,240 @@
+body
+{
+  transition: 0.3s;
+  margin-left: 0px;
+  background-color: #eeeeee;
+  margin-right: 10px;
+}
+.logo
+{
+  width:60px;height:60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 15px;
+
+  display: inline-block;
+  }
+  .header
+  {
+
+    position: relative;
+    background-color: white;
+    height:100px;
+
+    margin-bottom: 0px;
+    border-radius:15px 15px 0px 0px;
+  }
+  .prod
+  {
+    display: inline-block;
+    border:none;
+    font-size:30px;
+    position: absolute;
+    left: 0px;
+    background-color: yellow;
+
+  }
+
+  .desc
+  {
+    text-align:center;
+    font-size: 20PX;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .menu{
+    width:500px;
+    padding-top: 5px;
+    margin-left: 900px;
+    background-color: transparent;
+  }
+  .menu ul{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 25px;
+      padding: 0;
+      margin-left: px;
+      list-style: none;
+      width:500px;
+      background:transparent;
+  }
+  .menu ul li{
+        transition: 0.3s;
+      display: inline-block;
+      position: relative;
+      line-height: 26px;
+      text-align: left;
+  }
+  .menu ul li ul{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+      transition: 0.3s;
+    border-radius: 3px;
+      display: block;
+      padding: 10px;
+      color: #333;
+      text-decoration: none;
+  }
+  .menu ul li a:hover{
+      color: #fff;
+      background: #ff5722;
+  }
+  .menu ul li ul.dropdown{
+
+      min-width: 100%; /* Set width of the dropdown */
+      background: #f2f2f2;
+      display: none;
+      width: 100px;
+      position: absolute;
+      z-index: 999;
+      left: 0;
+  }
+  .menu ul li:hover ul.dropdown{
+      display: block;	/* Display the dropdown */
+  }
+  .menu ul li ul.dropdown li{
+      display: block;
+  }
+
+#page{
+  transition: 0.2s;
+  font-size:25px;
+  margin-left: 5px;
+border-radius: 50px;
+border-style: solid;
+border-color: #dddddd;
+}
+#page:hover{
+  background-color: #ffd571;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+
+}
+
+  #profile
+  {
+    position: absolute;
+    top:0px;
+    left:1380px;
+    transition: transform 0.5s;
+    display:inline-block;
+    margin: 10px;
+    border-radius: 43px;
+    width:75px;
+    height:75px;
+  }
+  #profile:hover
+  {
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
+    transform: scale(1.09);
+  }
+
+.shop:hover{
+  transform: scale(1.06);
+}
+  .banner{
+    transition: transform -3s;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
+    z-index: -4;
+    position:relative;
+    width:100%;
+    height:540px;
+  }
+  .shop{
+
+    transition: transform 0.5s;
+    position: absolute;
+    left:-45px;
+
+    top: 605px;
+    width:700px;
+    height:700px;
+  }
+
+  .gallery {
+      transition: transform 0.5s;
+  margin: 100px 0px 0px 70px;;
+
+  border: 0px solid #ccc;
+  display: inline-block;
+width:270px;
+  height:337.5px;
+
+}
+.outer{
+  margin-left:80px;
+}
+div.gallery:hover {
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+  transform: scale(1.02);
+  border: 1px solid #777;
+}
+.black{
+  border:solid black 4px;
+}
+div.gallery img {
+  width:270px;
+  height:337.5px;
+}
+
+.login{
+  background-color:black;
+  width:400px;
+  height: 420px;
+  border-radius:10px;
+  position:absolute;
+  left:550px;
+  top:250px;
+  padding-top: 30px;
+  padding-bottom: -50px;
+  box-shadow: 5px 15px 15px 5px rgba(0,0,0,0.3);
+}
+.login input,label{
+  margin-left: 80px;
+  padding: 5px;
+
+  width:210px;
+}
+.login input{
+  border-radius: 5px;
+  padding: 10px;
+}
+.login input:focus{
+  border-color: #eeeeee;
+  border-style: solid;
+}
+.login label{
+  color:#eeeeee;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.login button{
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 5px;
+  width:300px;
+  border: solid grey 1px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+
+}
+.login button:hover{
+  background-color:#96bb7c ;
+  color:#eeeeee;
+}
+.sale{
+  z-index: 4;
+  border:solid white 10px;
+  background-image: url('back.png');
+  width:99%;height:300px;
+  color: #ff5f40;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-top: 150px;
+  font-family: 'Rubik Mono One', sans-serif;
+}
