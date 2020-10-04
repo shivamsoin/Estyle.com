@@ -26,7 +26,7 @@ function tick ()
 }
 function check()
 {
-  if(document.getElementById("password").value == "GabruSardaar")
+  if(document.getElementById("password").value == "rahulchuchra")
       {
 
         location.href="index.html";
