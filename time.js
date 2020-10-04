@@ -29,7 +29,7 @@ function check()
   if(document.getElementById("password").value == "GabruSardaar")
       {
 
-        location.href="home.html";
+        location.href="index.html";
 
       }
   else
